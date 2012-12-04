@@ -1,0 +1,195 @@
+/* Your CSS code goes here */
+
+html { overflow: -moz-scrollbars-vertical; }
+
+
+body {
+	margin: 20px 0px 0px 0px;
+	padding: 0;
+	background: #FFFFFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #3C3D3F;
+    text-align: center;
+}
+
+#empty{
+    clear: both;
+}
+
+#content
+{ 
+width: 800px;
+margin: auto;
+text-align: left;
+}
+
+#uploader{
+    clear:left;
+    float:left;
+}
+
+#imagePreview{
+    float:right;
+}
+
+#imagePreview img{
+    height:150px;
+}
+
+.uploaderItem{
+    margin:10px 20px 10px 20px;
+    float:left;
+}
+
+
+#uploaderFileOption, #uploaderUrlOption, #uploaderSubmit{   
+    clear:left;
+}
+
+/*#uploaderFile{
+    border: solid black 2px;
+    margin-top:-5px;
+    padding-top:25px;
+    width:100px;
+    height:50px;
+}*/
+
+#navbar{
+    clear:left;
+    float:left;
+}
+
+#navbar div{
+	text-align: center;
+	padding:0px 10px 0px 10px;
+	float: left;
+}
+
+#edit{
+    float:right;
+}
+
+#edit:before{
+    content: "edit mode: ";
+}
+
+#drawMenu{
+    width:100px;
+    clear:left;
+    float:left;
+}
+
+#display{
+    width:600px;
+    float:right;
+}
+
+#colorPicker{
+    width:100px;
+    clear:right;
+    float:right;
+}
+
+#commentBox{
+    margin-left:100px;
+    width:100px;
+    clear:both;
+}
+
+.image{
+    text-align: center;
+    clear: left;
+}
+
+.image img
+{
+height:400px;
+}
+
+.comment{
+    text-align: left;
+    margin: 10px 0px 10px 50px;
+}
+
+.comment .date{
+    float: left;
+    width:180px;
+}
+
+.comment .delete{
+    float:right;
+}
+
+.comment .name{
+    font-weight:bold;
+    float:left;
+}
+.comment .text{
+    clear: both;
+}
+
+.comment .name::after
+{
+    content: " said:";
+    font-weight:normal;
+}
+
+.color{
+    height:50px;
+    width:30px;
+    border:1px solid black;
+}
+
+.color#white{
+    background-color:#FFFFFF;
+}
+
+.color#yellow{
+    background-color:#FFFF00;
+}
+
+.color#green{
+    background-color:#00FF00;
+}
+
+.color#blue{
+    background-color:#0000FF;
+}
+
+.color#red{
+    background-color:#FF0000;
+}
+
+.color#black{
+    background-color:#000000;
+}
+
+
+label
+{
+width: 100px;
+float: left;
+text-align: left;
+margin-right: 0px;
+display: block
+}
+
+textarea{
+    color:red;
+}
+
+.submit
+{
+margin-left: 50px;
+}
+
+canvas{
+border:1px solid black;
+margin: 0;
+padding: 0;
+}
+
+
+
+
